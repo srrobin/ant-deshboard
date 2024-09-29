@@ -1,0 +1,126 @@
+
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
+@mixin borderBottom($width,$color){
+  border-bottom: $width solid $color;
+}
+@mixin card($bg, $padding, $borderRadius,$boxShadow,$cursor, $boverBg){
+  background: $bg;
+  padding: $padding;
+  border-radius: $borderRadius;
+  box-shadow: $boxShadow;
+  @include transition-ease;
+  cursor: $cursor;
+  &:hover{
+    background: $boverBg ;
+  }
+}
+@mixin cardHoverless($bg, $padding, $borderRadius,$boxShadow){
+  background: $bg;
+  padding: $padding;
+  border-radius: $borderRadius;
+  box-shadow: $boxShadow;
+}
+@mixin flexStatus($display, $alignItem, $justifyContent){
+  display: $display;
+  align-items: $alignItem;
+  justify-content: $justifyContent;
+}
+@mixin media-sm {
+  @media screen and (max-width: 576px) {
+    @content;
+  }
+}
+@mixin media-md {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (max-width: 1400px) {
+    @content;
+  }
+}
+// up all this project 
+
+// @mixin  subLayout($bg_color,$height,$rightPadding){
+//     background-color:$bg_color;
+//     padding:0px $rightPadding;
+//     height: $height;
+// }
+// @mixin displayLayout($negHeight,$bg_color,$padding){
+//     height: calc(100% - $negHeight);
+//     background-color: $bg_color;
+//     overflow-x: hidden ;
+//     overflow-y:scroll;
+//     padding: $padding;
+// }
+
+// @mixin borderRadius($radius){
+//     border-radius: $radius;
+// }
+// @mixin buttonType($bg,$color){
+//   background: $bg;
+//   color: $color;
+// }
+// @mixin btnHover($bg){
+//   background: $bg;
+// }
+
+// @mixin banner{
+//   width: 100%;
+//   position: relative;
+//   color: white;
+//   .banner-content{
+//     position: absolute;
+//     top: 50px;
+//     width: 100%;
+//   }
+//   img{
+//     width: 100%;
+//   }
+//   span{
+//     font-size: $bannerHeading;
+//     display: block;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     @include mQ(3000px, 1200px){
+//       font-size: 68px;
+//     }
+//   }
+//   span.sub-title{
+//     font-weight: normal;
+//     margin-bottom: 30px;
+//   }
+//   @include mQ(1200px){
+//     max-height: 640px;
+//     overflow: hidden;
+//   }
+// }
+
+// @mixin clearFix{
+//   &:after{
+//     content: "";
+//     display: block;
+//     clear: both;
+//   }
+// }
+
+// @mixin grid($cols, $mgn){
+//   float: left;
+//   width: ((100% - (($cols - 1) * $mgn)) / $cols );
+//   margin-right: $mgn;
+//   margin-bottom: $mgn;
+//   &:nth-child(#{$cols}n){
+//     margin-right: 0;
+//   }
+// }
+
+
+

@@ -1,13 +1,143 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .trigger:hover {
+  color: #1890ff;
+} */
+body{
+  font-family: "Poppins", system-ui;
 }
+/* .logo {
+    height: 64px;
+    margin: 0;
+    background: #8d1717;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+.demo-logo-vertical {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255,255,255,.2);
+  border-radius: 6px;
+}
+.ant-layout{
+  min-height: 100vh;
+}
+main.menu{
+  overflow-y: scroll;
+  height: 93vh;
+}
+main.menu::-webkit-scrollbar{
+  width: 0px;
+}
+main{
+  overflow-y: scroll;
+  height: 75vh;
+}
+main::-webkit-scrollbar{
+  width: 0px;
+}
+.sidenav__brand__text{
+    /* color: #512991; */
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 30px;
+}
+.sidenav__brand__logo{
+  display: none;
+  transition: .3s;
+}
+.sidenav__brand__logo img{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    margin-left: 10px;
+
+}
+.ant-layout-sider-collapsed .sidenav__brand__logo{
+ display: block;
+}
+
+.ant-layout-sider-collapsed .sidenav__brand__text{
+ display: none;
+}
+.ant-menu-inline-collapsed .ant-menu-item-group-title{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+ .ant-menu-item-group-title{
+   display: none !important;
+}
+}
+/* icon card css */
+.icon__card__info{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+
+}
+.icon__card__info svg {
+    font-size: 40px;
+    margin-top: 11px;
+}
+.icon__card__info p {
+    font-size: 13px;
+    padding: 17px 0;
+}
+
+.copy__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    padding: 3px;
+    /* color: #512991; */
+}
+.ant-select-selector{
+    width: 100%;
+    height: 38px !important;
+    padding: 0px !important;
+   
+}
+.ant-select .ant-select-arrow {
+    display: none !important;
+ 
+}
+
+
+   .topbar__responsive__menu__btn{
+     display: none;
+   }
+    @media (max-width: 768px) {
+    
+      .right__menu{
+        display: none;
+        
+      }
+      .left__menu{
+        display: none;
+      }
+      .topbar__responsive__menu__btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-left: 30px;
+          z-index: 9999;
+      }
+    }

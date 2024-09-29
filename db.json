@@ -1,0 +1,60 @@
+{
+  "menu": [
+    {
+      "key": "g1",
+      "label": "Overview",
+      "type": "group",
+      "children": [
+        {
+          "key": "/overview/dashboard",
+          "icon": "upload",
+          "label": "Dashboard"
+        },
+        {
+          "key": "/overview/hotels",
+          "icon": "user",
+          "label": "Hotels"
+        }
+      ]
+    },
+    {
+      "key": "g2",
+      "label": "Booking",
+      "type": "group",
+      "children": [
+        {
+          "key": "newbooking",
+          "icon": "video-camera",
+          "label": "New Booking"
+        },
+        {
+          "key": "bookinghistory",
+          "icon": "user",
+          "label": "Booking History"
+        },
+        {
+          "key": "checkouthistory",
+          "icon": "user",
+          "label": "Checkout History"
+        }
+      ]
+    },
+    {
+      "key": "g3",
+      "label": "Restaurant & Bar",
+      "type": "group",
+      "children": [
+        {
+          "key": "pos",
+          "icon": "video-camera",
+          "label": "POS"
+        },
+        {
+          "key": "saleshistory",
+          "icon": "user",
+          "label": "Sales History"
+        }
+      ]
+    }
+  ]
+}
