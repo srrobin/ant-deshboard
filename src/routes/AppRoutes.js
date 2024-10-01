@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Hotels from '../containers/overview/Hotels';
-import Dashboard from '../containers/overview/Dashboard';
 import NewBooking from '../containers/booking/NewBooking';
 import BookingHistory from '../containers/booking/BookingHistory';
 import CheckoutHistory from '../containers/booking/CheckoutHistory';
@@ -16,13 +15,13 @@ import FrontDeskV1 from '../containers/frontdesk/FrontDeskV1';
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<Dashboard/>}/>
+            <Route path="/" element={<TypeOne/>}/>
 
                 <Route path="/dashboard/typeone" element={<TypeOne/>}/>
                 <Route path="/dashboard/typetwo" element={<TypeTwo/>}/>
                 <Route path="/dashboard/typethree" element={<TypeThree/>}/>
 
-                <Route path="/overview/dashboard" element={<Dashboard/>}/>
+                <Route path="/overview/dashboard" element={<TypeOne/>}/>
                 <Route path="/overview/hotels" element={<Hotels/>}/>
                 <Route path="/overview/pos" element={<Pos/>}/>
 

@@ -755,22 +755,10 @@
       "status": 3
     },
     {
-      "id": 5,
-      "status_name": "Unprepared/Abandoned",
-      "status_color": "#EE9E9C",
-      "status": 4
-    },
-    {
       "id": 6,
       "status_name": "Dirty",
       "status_color": "#E8BE79",
       "status": 5
-    },
-    {
-      "id": 7,
-      "status_name": "Occupied",
-      "status_color": "#fa8c16",
-      "status": 6
     },
     {
       "id": 8,
