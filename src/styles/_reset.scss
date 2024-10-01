@@ -17,7 +17,11 @@
 body{ 
   font-family: "Poppins", sans-serif;
  }
-
+ img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
 .ant-spin-dot-item {
     background-color: $color_two !important;
   }
@@ -59,7 +63,7 @@ body{
   }
   .main-layout .ant-layout-sider-below {
     position: fixed;
-    z-index: 999;
+    z-index: 999 !important;
     min-height:400px;
     height:100vh;
   }

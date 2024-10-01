@@ -19,9 +19,12 @@ import { TbBrandBooking } from "react-icons/tb";
 const SideBarMenu = () => {
   return (
     <Menu
-      theme="dark"
+      // theme="light"
       mode="inline"
       defaultSelectedKeys={['1']}
+      style={{ 
+        background:"linear-gradient(137deg, rgb(207, 220, 234), rgb(218, 228, 223), rgb(232, 239, 222))"
+      }}
       items={[
         {
           key: 'g0',
@@ -60,6 +63,11 @@ const SideBarMenu = () => {
               icon: <LiaHotelSolid   style={{fontSize: "20px"}}/>,
               label: <Link to="/overview/hotels">Hotels</Link>,
             },
+            {
+              key: '/overview/pos',
+              icon: <SiApostrophe style={{fontSize: "20px"}}/>,
+              label: <Link to="/overview/pos">POS</Link>,
+            },
           ],
         },
         {
@@ -89,11 +97,6 @@ const SideBarMenu = () => {
           label: 'Restaurant & Bar',
           type: 'group',
           children: [
-            {
-              key: '6',
-              icon: <SiApostrophe style={{fontSize: "20px"}}/>,
-              label: <Link to="/restaurant/pos">POS</Link>,
-            },
             {
               key: '7',
               icon: <SiBuymeacoffee style={{fontSize: "20px"}}/>,

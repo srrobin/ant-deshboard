@@ -1,0 +1,562 @@
+@import "./allmixing";
+@import "./reset";
+@import "./variables";
+
+.frontdeskV3 { 
+    .card__paddingless .ant-card-body {
+        padding: 10px !important;
+      }
+      .card__border__radiusless.ant-card {
+        border-radius: 0px !important;
+      }
+      .react-calendar-timeline .rct-header-root {
+        background: #23253c;
+        border-bottom: none;
+        color: #14527f;
+      }
+      .react-calendar-timeline .rct-dateHeader-primary {
+        background-color: initial;
+        border-left: 1px solid #23253c;
+        border-right: 1px solid #23253c;
+        color: #d3d3d8;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .rct-dateHeader {
+        border-bottom: 3px solid #23253c !important;
+        border-left: 2px solid #23253c;
+      }
+      .react-calendar-timeline .rct-sidebar {
+        border-right: 3px solid #23253c;
+      }
+      .hotel__name__status {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .hotel__status__area {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          column-gap: 10px;
+          .status__box {
+            height: 10px;
+            width: 10px;
+          }
+        }
+      }
+}
+
+
+
+.hotel__name__status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .hotel__status__area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+    .status__box {
+      height: 10px;
+      width: 10px;
+    }
+  }
+}
+.room__status {
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  padding-right: 10px;
+}
+.room__status:hover {
+  color: blue;
+}
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-odd {
+  background: #fff !important;
+}
+
+.room__status__button {
+.linked_button {
+  width: 100% !important;
+  span.ant-radio-button.ant-radio-button-checked {
+    background: var(--checked-color);
+    border-radius: 6px !important;
+  }
+}
+}
+.customer__details__hover__area {
+width: 250px;
+padding: 3px;
+.main__guest__name {
+  width: 100%;
+  background: #f6f8fa;
+  padding: 10px 15px;
+  border: 1px solid rgba(5, 5, 5, 0.06);
+  border-radius: 5px;
+  .guest__title {
+    font-weight: 600;
+    color: #383a4f;
+  }
+}
+.customer__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15px 0 10px;
+  .customer__single__info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    .info__title {
+      font-weight: 600;
+      text-transform: capitalize;
+      color: #383a4f;
+      font-size: 12px;
+    }
+    .info__details {
+      color: #089cd9;
+      font-size: 16px;
+    }
+  }
+}
+.status__area {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0 10px;
+  .single__status {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+    .status__title {
+      font-weight: 600;
+      color: #383a4f;
+    }
+    .status__info {
+      padding: 8px 6px;
+      border-radius: 3px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+  }
+}
+.ant-btn-link {
+  color: #089cd9 !important;
+  font-weight: 500;
+  text-transform: capitalize;
+ }
+}
+.room__details__hover__area {
+.room__details__info {
+  margin: 15px 0 15px;
+  color: #089cd9;
+  font-size: 16px;
+  .room__details__heading {
+    font-weight: 600;
+    color: #383a4f;
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+}
+}
+
+.esl-section-header {
+  background-color: #23253cc7;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row.rct-sidebar-row-even {
+  background: rgba(0, 0, 0, 0.05) !important;
+}
+
+
+
+
+
+
+
+
+.frontdeskV3 {
+  .card__paddingless .ant-card-body {
+    padding: 10px !important;
+  }
+  .card__border__radiusless.ant-card {
+    border-radius: 0px !important;
+  }
+  .react-calendar-timeline .rct-header-root {
+    background: #23253c;
+    border-bottom: none;
+    color: #14527f;
+  }
+  .react-calendar-timeline .rct-dateHeader-primary {
+    background-color: initial;
+    border-left: 1px solid #23253c;
+    border-right: 1px solid #23253c;
+    color: #d3d3d8;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .rct-dateHeader {
+    border-bottom: 3px solid #23253c !important;
+    border-left: 2px solid #23253c;
+  }
+  .react-calendar-timeline .rct-sidebar {
+    border-right: 3px solid #23253c;
+  }
+
+
+
+  .hotel__name__status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .hotel__status__area {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      column-gap: 10px;
+      .status__box {
+        height: 10px;
+        width: 10px;
+      }
+    }
+  }
+  .room__status {
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding-right: 10px;
+  }
+  .room__status:hover {
+    color: blue;
+  }
+  .react-calendar-timeline .rct-horizontal-lines .rct-hl-odd {
+    background: #fff !important;
+  }
+}
+.room__status__button {
+  .linked_button {
+    width: 100% !important;
+    span.ant-radio-button.ant-radio-button-checked {
+      background: var(--checked-color);
+      border-radius: 6px !important;
+    }
+  }
+}
+.customer__details__hover__area {
+  width: 250px;
+  padding: 3px;
+  .main__guest__name {
+    width: 100%;
+    background: #f6f8fa;
+    padding: 10px 15px;
+    border: 1px solid rgba(5, 5, 5, 0.06);
+    border-radius: 5px;
+    .guest__title {
+      font-weight: 600;
+      color: #383a4f;
+    }
+  }
+  .customer__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0 10px;
+    .customer__single__info {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+      .info__title {
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #383a4f;
+        font-size: 12px;
+      }
+      .info__details {
+        color: #089cd9;
+        font-size: 16px;
+      }
+    }
+  }
+  .status__area {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0 10px;
+    .single__status {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 6px;
+      .status__title {
+        font-weight: 600;
+        color: #383a4f;
+      }
+      .status__info {
+        padding: 8px 6px;
+        border-radius: 3px;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+    }
+  }
+  .ant-btn-link {
+    color: #089cd9 !important;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}
+.room__details__hover__area {
+  .room__details__info {
+    margin: 15px 0 15px;
+    color: #089cd9;
+    font-size: 16px;
+    .room__details__heading {
+      font-weight: 600;
+      color: #383a4f;
+      margin-right: 10px;
+      text-transform: capitalize;
+      font-size: 14px;
+    }
+  }
+}
+
+
+.booking__details {
+  .card__paddingless .ant-card-body {
+    padding: 20px !important;
+  }
+  .card__border__radiusless.ant-card {
+    border-radius: 0px !important;
+  }
+  .card__box__shadow.ant-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  .card__custom__bg.ant-card {
+    background: #fff;
+  }
+
+  .card__innter__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    .action__area {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-direction: row;
+      .action__button button {
+        background: #23253c;
+        color: #fff;
+      }
+    }
+  }
+  .guest__stay__info {
+    margin: 40px 0;
+    .checkin__checkout__area {
+      .check__in__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 16px;
+      }
+      .ant-divider-horizontal {
+        margin: 2px 0 !important;
+      }
+      .ant-divider-dashed {
+        background: none;
+        border-color: #23253c6e;
+        border-style: dashed;
+        border-width: 1px 0 0;
+      }
+    }
+  }
+  .guest__rest__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 25px;
+    .single__info {
+      background: #f2f2f2;
+      padding: 10px 20px;
+      color: #4f4242;
+      border: 1px solid rgba(5, 5, 5, 0.06);
+      border-radius: 5px;
+    }
+  }
+  .balance__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .single__blance {
+      background: #f2f2f2;
+      width: 31%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid rgba(5, 5, 5, 0.06);
+      .blance__amount {
+        font-weight: 600;
+      }
+    }
+  }
+  .included__title {
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+  }
+  .included__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    .single__included {
+      background: #f2f2f2;
+      width: 48.3%;
+      padding: 6px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 5px;
+      border: 1px solid rgba(5, 5, 5, 0.06);
+      flex-wrap: wrap;
+      .fee__amount {
+        font-weight: 600;
+      }
+    }
+  }
+  .blance__footer__title {
+    margin: 12px 0px;
+    color: brown;
+  }
+}
+button.ant-btn.ant-btn-link.room__details__linkButton {
+  color: #089cd9 !important;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.ant-popover .ant-popover-inner {
+  background: #efefef !important;
+  border: 1px solid #d8d4d4;
+}
+.ant-radio-button-wrapper.linked_button {
+  background: #efefef;
+  border: none;
+  border-radius: 6px;
+  color: #444;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7),
+    -6px -6px 10px rgba(255, 255, 255, 0.5),
+    6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.ant-radio-button-wrapper.linked_button:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.6),
+    -2px -2px 4px rgba(255, 255, 255, 0.4),
+    2px 2px 2px rgba(255, 255, 255, 0.05), 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.ant-radio-button-wrapper.linked_button:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.7),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 2px rgba(255, 255, 255, 0.075),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.react-calendar-timeline .rct-scroll {
+  overflow-x: hidden !important;
+  z-index: 1 !important;
+}
+.sticky {
+  position: sticky;
+  top: 64px;
+  z-index: 1000;
+}
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-even,
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-odd {
+  border-bottom: 1px solid #bbbbbb38 !important;
+  box-sizing: border-box;
+  z-index: 40;
+}
+.react-calendar-timeline .rct-vertical-lines .rct-vl {
+  // position: absolute;
+  border-left: 1px solid #bbbbbb38 !important;
+  z-index: 30;
+}
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row {
+  padding: 0 !important;
+  // overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  margin: 0;
+  border-bottom: 2px solid #bbbbbb38 !important;
+}
+.table__title {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #37394a;
+}
+
+.esl-section-header {
+    background-color: #23253cc7;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row.rct-sidebar-row-even {
+    background: rgba(0, 0, 0, 0.05) !important;
+}
+.frontdesk__header__title {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // color: #1677ff;
+  color: rgb(255 255 255 / 45%);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+.animate-charcter{
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #c8beeb 0%,
+    #1677ff 29%,
+    #064eb3 67%,
+    #083370 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+

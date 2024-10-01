@@ -1,16 +1,7 @@
 @import "./allmixing";
 @import "./reset";
 @import "./variables";
-// %flex__area{
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-// }
-// %flex__center{
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
+
 %mediumTitle{
   font-size:  map-get($font-size, medium);;
   font-weight:  map-get($font-weight, medium);;
@@ -280,23 +271,22 @@
 
   }
 .app__sidebar{
-  // position: relative;
-  // left: 0;
-  .toggleBtn{
-    font-size: 16px;
-    // height: 64px;
-    // width: 64px;
-    display: none;
-    @include media-md{
-      display: block;
-      color: #fff;
-      position: absolute;
-      top: 17px;
-      right: -32px;
-      background: $color_two;
-      line-height: 1;
-    }
-  }
+
+  // .toggleBtn{
+  //   font-size: 16px;
+  //   // height: 64px;
+  //   // width: 64px;
+  //   display: none;
+  //   @include media-md{
+  //     display: block;
+  //     color: #fff;
+  //     position: absolute;
+  //     top: 17px;
+  //     right: -32px;
+  //     background: $color_two;
+  //     line-height: 1;
+  //   }
+  // }
 }
   // .block__card__area {
   //   @include cardHoverless( $color_one,20px,6px,rgba(0, 0, 0, 0.1) 0px 0px 10px);

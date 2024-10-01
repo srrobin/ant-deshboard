@@ -1,18 +1,13 @@
 /* eslint-disable react/prop-types */
 
 import React from 'react';
-import { Button, Layout } from 'antd';
+import {  Layout } from 'antd';
 import SideBarMenu from './SideBarMenu';
 const { Sider } = Layout;
-import {
-  MenuFoldOutlined,
-  MenuUnfoldOutlined,
-} from "@ant-design/icons";
 
-const Sidebar = ( {collapsed, setCollapsed} ) => {
-  const toggleButton = () => {
-    setCollapsed(!collapsed);
-  };
+
+const Sidebar = ( {collapsed, isMobile} ) => {
+
   return (
     <Sider 
       breakpoint="lg"
@@ -21,15 +16,19 @@ const Sidebar = ( {collapsed, setCollapsed} ) => {
       collapsible
       collapsed={collapsed}
       width={200}
-      className='app__sidebar'
+      className='sidebar__area'
+      style={{
+        overflow: "auto",
+        height: "100vh",
+        position: isMobile ? "fixed" : "sticky",
+        top: 0,
+        left: 0,
+        zIndex: 9999,
+        background:"linear-gradient(137deg, rgb(207, 220, 234), rgb(218, 228, 223), rgb(232, 239, 222))"
+      }}
     >
       <div className="demo-logo-vertical" />
-      <Button
-        type="text"
-        icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-        onClick={toggleButton}
-        className="toggleBtn"
-      />
+
       <SideBarMenu/>
     </Sider>
   );

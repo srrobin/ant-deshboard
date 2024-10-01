@@ -91,6 +91,7 @@ const SimpleTable = () => {
               latest transactions
             </div>
             <Table 
+             scroll={{ x: "max-content" }}
             columns={columns} 
             dataSource={data}   
             pagination={false} 
