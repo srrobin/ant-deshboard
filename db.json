@@ -31,7 +31,7 @@
                 "base_price": 400,
                 "check_in": "16:00:00",
                 "check_out": "11:00:00",
-                "room_image": "https://hotelmgtapi.cisstaging.com/public/upload/image/1685966682362594040.jpg",
+                "room_image": "https://media.istockphoto.com/id/503016934/photo/entrance-of-luxury-hotel.jpg?s=612x612&w=0&k=20&c=DXFzucB2xWGf3PI6_yjhLKDvrFcGlOpOjXh6KDI8rqU=",
                 "status_color": "#52c41a",
                 "status": 1
             },
@@ -49,7 +49,7 @@
                 "base_price": 400,
                 "check_in": "16:00:00",
                 "check_out": "11:00:00",
-                "room_image": "https://hotelmgtapi.cisstaging.com/public/upload/image/1689226998236626285.jpeg",
+                "room_image": "https://media.istockphoto.com/id/472899538/photo/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab.jpg?s=612x612&w=0&k=20&c=rz-WSe_6gKfkID6EL9yxCdN_UIMkXUBsr67884j-X9o=",
                 "status_color": "#2a899d",
                 "status": 2
             },
@@ -67,7 +67,7 @@
                 "base_price": 400,
                 "check_in": "16:00:00",
                 "check_out": "11:00:00",
-                "room_image": "https://hotelmgtapi.cisstaging.com/public/upload/image/1690699530486706739.jpeg",
+                "room_image": "https://thumb.ac-illust.com/eb/eb8f590c820c2dd89bd8f1b83a194f54_t.jpeg",
                 "status_color": "#EE9E9C",
                 "status": 4
             }
@@ -92,7 +92,7 @@
                 "base_price": 400,
                 "check_in": "14:00:00",
                 "check_out": "11:00:00",
-                "room_image": "",
+                "room_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi6a0PPKliCUhqiM7gbx_RFjBOhFPdGrfADnY2CGp98n5YHEfVBJtsED6E8EBiK0looOE&usqp=CAU",
                 "status_color": "#2a899d",
                 "status": 2
             }
@@ -117,7 +117,7 @@
                 "base_price": 200,
                 "check_in": "15:00:00",
                 "check_out": "12:00:00",
-                "room_image": "https://hotelmgtapi.cisstaging.com/public/upload/image/1684671128228851059.jpeg",
+                "room_image": "https://media-cdn.tripadvisor.com/media/photo-s/05/59/f3/60/hotel-front-view.jpg",
                 "status_color": "#2a899d",
                 "status": 2
             },
@@ -135,7 +135,7 @@
                 "base_price": 200,
                 "check_in": "15:00:00",
                 "check_out": "12:00:00",
-                "room_image": "",
+                "room_image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/d8/5f/a5/hotel-front-view.jpg",
                 "status_color": "#2a899d",
                 "status": 2
             },
@@ -153,7 +153,7 @@
                 "base_price": 200,
                 "check_in": "15:00:00",
                 "check_out": "12:00:00",
-                "room_image": "https://hotelmgtapi.cisstaging.com/public/upload/image/1694334211827124700.png",
+                "room_image": "https://media-cdn.tripadvisor.com/media/photo-s/05/33/15/84/days-hotel.jpg",
                 "status_color": "#2a899d",
                 "status": 2
             }
@@ -178,7 +178,7 @@
                 "base_price": 200,
                 "check_in": "15:00:00",
                 "check_out": "11:00:00",
-                "room_image": "",
+                "room_image": "https://media.istockphoto.com/id/487042276/photo/hotel-sign.jpg?s=612x612&w=0&k=20&c=DjEVAoFnjB2cWwX28cxSKWkxsbze7o9jgkYrhyfmq9E=",
                 "status_color": "#3B5B7E",
                 "status": 7
             },
@@ -196,7 +196,7 @@
                 "base_price": 200,
                 "check_in": "15:00:00",
                 "check_out": "11:00:00",
-                "room_image": "",
+                "room_image": "https://media.istockphoto.com/id/936280408/photo/white-hotel-letters-on-orange-facade.jpg?s=612x612&w=0&k=20&c=DYn4IlJsF5PlLzPsD8wlgO2ldw6fU11m2F057D7ImEU=",
                 "status_color": "#2a899d",
                 "status": 2
             },
@@ -239,7 +239,7 @@
                 "base_price": 350,
                 "check_in": "15:00:00",
                 "check_out": "12:00:00",
-                "room_image": "",
+                "room_image": "https://media.istockphoto.com/id/183832756/photo/tropical-hotel-pool-at-sunset.jpg?s=612x612&w=0&k=20&c=w2-mGJ7kRLtUYoph7w7hMjo6VjOJVYFLgzl4unrU7Zo=",
                 "status_color": "#2a899d",
                 "status": 2
             }
@@ -264,7 +264,7 @@
                 "base_price": 1200,
                 "check_in": "14:00:00",
                 "check_out": "12:00:00",
-                "room_image": "",
+                "room_image": "https://media.istockphoto.com/id/92007666/photo/posh-hotel-front.jpg?s=612x612&w=0&k=20&c=oJ_9x6kG-WO-8t_BIRWE3D4GN6pXLulmf7Lztr4Y-y8=",
                 "status_color": "#2a899d",
                 "status": 2
             },
@@ -282,7 +282,7 @@
                 "base_price": 1200,
                 "check_in": "14:00:00",
                 "check_out": "12:00:00",
-                "room_image": "",
+                "room_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ42uhr4CKEJRsG6OwkhDTqLPCZoJ_IAV8I6QiFlR2M6324YEa9ZV3uie41A246ZxG-QZE&usqp=CAU",
                 "status_color": "#2a899d",
                 "status": 2
             },
@@ -300,7 +300,7 @@
                 "base_price": 1200,
                 "check_in": "14:00:00",
                 "check_out": "12:00:00",
-                "room_image": "",
+                "room_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoxAwhdTHWlqdwReCIbw46noyzkpuoCQND2clMjbEKJ9syfHM1Mo6LWjh5oJi3sqAA6js&usqp=CAU",
                 "status_color": "#2a899d",
                 "status": 2
             }
@@ -325,7 +325,7 @@
                 "base_price": 900,
                 "check_in": "15:00:00",
                 "check_out": "12:00:00",
-                "room_image": "",
+                "room_image": "https://media.istockphoto.com/id/1432806576/photo/facade-of-the-taj-mahal-palace-hotel-in-colaba-district-mumbai-india.jpg?s=612x612&w=0&k=20&c=qZ2pVQIOg6oIc34ho9o7l8G0pwLFnUr2Sv08USbKE2M=",
                 "status_color": "#2a899d",
                 "status": 2
             },
@@ -343,7 +343,7 @@
                 "base_price": 900,
                 "check_in": "15:00:00",
                 "check_out": "12:00:00",
-                "room_image": "https://hotelmgtapi.cisstaging.com/public/upload/image/1689153257155923412.png",
+                "room_image": "https://i.ytimg.com/vi/YaTV7vB1P-k/maxresdefault.jpg",
                 "status_color": "#2a899d",
                 "status": 2
             }
@@ -386,7 +386,7 @@
                 "base_price": 1300,
                 "check_in": "15:00:00",
                 "check_out": "00:00:00",
-                "room_image": "https://hotelmgtapi.cisstaging.com/public/upload/image/1689154766962363168.jpeg",
+                "room_image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/72/69.jpg",
                 "status_color": "#2a899d",
                 "status": 2
             }
@@ -411,7 +411,7 @@
                 "base_price": 1500,
                 "check_in": "14:00:00",
                 "check_out": "00:00:00",
-                "room_image": "",
+                "room_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGAyV9pkEB1JN7bF6i1xzqnMxZt0QBfa4dEVINg_KoLkXokvuEToFsP79psNQ03vhrAE&usqp=CAU",
                 "status_color": "#2a899d",
                 "status": 2
             }
@@ -436,7 +436,7 @@
                 "base_price": 2000,
                 "check_in": "14:00:00",
                 "check_out": "00:00:00",
-                "room_image": "",
+                "room_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGAyV9pkEB1JN7bF6i1xzqnMxZt0QBfa4dEVINg_KoLkXokvuEToFsP79psNQ03vhrAE&usqp=CAU",
                 "status_color": "#52c41a",
                 "status": 1
             }
@@ -824,5 +824,37 @@
         }
       ]
     }
+  ],
+  "timelineRoomStatus":[
+    {
+      "id": 1,
+      "status_name": "Close",
+      "status_color": "#E07170",
+      "status": 0
+  },
+  {
+      "id": 2,
+      "status_name": "Available",
+      "status_color": "#52c41a",
+      "status": 1
+  },
+  {
+      "id": 5,
+      "status_name": "Unprepared",
+      "status_color": "#EE9E9C",
+      "status": 4
+  },
+  {
+      "id": 6,
+      "status_name": "Dirty",
+      "status_color": "#E8BE79",
+      "status": 5
+  },
+  {
+      "id": 7,
+      "status_name": "Occupied",
+      "status_color": "#fa8c16",
+      "status": 6
+  }
   ]
 }

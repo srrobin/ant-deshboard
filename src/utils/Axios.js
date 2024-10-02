@@ -7,3 +7,8 @@ export async function fetchRoomStatus() {
     const response = await axiosInstance.get('/topRoomStatus');
     return response.data;
 }
+
+export async function timeLineRoomStatus() {
+    const response = await axiosInstance.get('/timelineRoomStatus');
+    return response.data;
+}

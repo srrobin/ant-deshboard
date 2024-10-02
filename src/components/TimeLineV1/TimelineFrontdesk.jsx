@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import StatusIdentity from './StatusIdentity';
 import moment from 'moment';
 import FallbackImage from "../../assets/h1.jpg"
-import { CaretRightOutlined, CaretLeftOutlined } from "@ant-design/icons";
+import { CaretRightOutlined, CaretLeftOutlined, EllipsisOutlined } from "@ant-design/icons";
 import { MdOutlineCenterFocusStrong } from "react-icons/md";
 import Timeline, {
   TimelineHeaders,
@@ -18,6 +18,9 @@ import { Button, Image, Popover } from 'antd';
 import StatusBox from './StatusBox';
 import { Link } from 'react-router-dom';
 import HoverStatus from './HoverStatus';
+import { useQuery } from '@tanstack/react-query';
+import {  timeLineRoomStatus } from '../../utils/Axios';
+import RoomStatus from './RoomStatus';
 const keys = {
   groupIdKey: "id",
   groupTitleKey: "title",
@@ -63,6 +66,21 @@ const TimelineFrontdesk = () => {
     }))
     .catch(error => console.error('Error fetching data:', error));
   }, []);
+
+  const {data, isLoading ,isError,error} = useQuery({
+    queryKey:["timeLineRoomStatus"],
+    queryFn: () => timeLineRoomStatus()
+})
+const content = (id) => {
+  return (
+    <div className="room__status__button">
+      <RoomStatus data={data} id={id} setGroups={setGroups} />
+    </div>
+  );
+};
+  if(isLoading) <>Loading</>
+  if(isError) <>{error.message}</>
+  console.log("🚀 ~ TimelineFrontdesk ~ data:", data)
   const handleClick = () => {
     setOpenCalenderData(true);
   };
@@ -248,11 +266,11 @@ const TimelineFrontdesk = () => {
                 </Popover>
               </span>
             </div>
-            {/* <span className="room__status">
+            <span className="room__status">
               <Popover placement="right" content={content(group.id)} trigger="click" className="hotel__pop">
                 <EllipsisOutlined />
               </Popover>
-            </span> */}
+            </span>
             {/* <CalenderDetailsDrawer
               openCalenderData={openCalenderData}
               setOpenCalenderData={setOpenCalenderData}
@@ -264,7 +282,7 @@ const TimelineFrontdesk = () => {
 
 
     const buttonStyle = {
-      background: "#23253c",
+      background: "#2F4F4F",
       color: "rgb(255, 255, 255)",
       lineHeight: "14px",
       fontWeight: "400",

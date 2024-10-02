@@ -10,7 +10,7 @@
         border-radius: 0px !important;
       }
       .react-calendar-timeline .rct-header-root {
-        background: #23253c;
+        background: $color_two;
         border-bottom: none;
         color: #14527f;
       }
@@ -167,11 +167,11 @@ padding: 3px;
 }
 
 .esl-section-header {
-  background-color: #23253cc7;
+  background-color: $color_two;
   background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 .react-calendar-timeline .rct-sidebar .rct-sidebar-row.rct-sidebar-row-even {
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: $color_two !important;
 }
 
 
@@ -189,7 +189,7 @@ padding: 3px;
     border-radius: 0px !important;
   }
   .react-calendar-timeline .rct-header-root {
-    background: #23253c;
+    background: $color_two;
     border-bottom: none;
     color: #14527f;
   }
@@ -512,7 +512,7 @@ button.ant-btn.ant-btn-link.room__details__linkButton {
 }
 
 .esl-section-header {
-    background-color: #23253cc7;
+    background-color: $color_two;
     background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 }
 .react-calendar-timeline .rct-sidebar .rct-sidebar-row.rct-sidebar-row-even {

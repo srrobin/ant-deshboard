@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
@@ -16,7 +17,14 @@ import { TbBrandBooking } from "react-icons/tb";
 
 
 
-const SideBarMenu = () => {
+const SideBarMenu = ({setCollapsed,isMobile}) => {
+ 
+  const handleMenuClick = () => {
+    if(isMobile){
+      setCollapsed(true)
+
+    }
+  }
   return (
     <Menu
       // theme="light"
@@ -25,6 +33,7 @@ const SideBarMenu = () => {
       style={{ 
         background:"linear-gradient(137deg, rgb(207, 220, 234), rgb(218, 228, 223), rgb(232, 239, 222))"
       }}
+      onClick={handleMenuClick}
       items={[
         {
           key: 'g0',

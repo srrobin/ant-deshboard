@@ -27,8 +27,9 @@ const FrontDeskV1 = () => {
               extra={
                 <Button
                   type="primary"
-                  icon={<AppstoreAddOutlined style={{ color: "#ddd" }} />}
+                  icon={<AppstoreAddOutlined style={{ color: "#ffffff" }} />}
                   onClick={handleClick}
+                  style={{ background: "#2F4F4F" }} 
                 >
                   {" "}
                   ADD NEW BOOKING ...{" "}

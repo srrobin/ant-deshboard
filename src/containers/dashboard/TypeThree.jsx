@@ -5,12 +5,14 @@ import React from 'react';
  import { FaCss3Alt } from "react-icons/fa";
  import { SiJavascript } from "react-icons/si";
  import { FaPython } from "react-icons/fa6";
- import { RiReactjsLine } from "react-icons/ri";
+
+import { SiPhp } from "react-icons/si";
+import { PiFileSqlFill } from "react-icons/pi";
+import { FaNodeJs } from "react-icons/fa6";
+import { IoLogoReact } from "react-icons/io5";
+import { DiRuby } from "react-icons/di";
 const TypeThree = () => {
-    const style = {
-        background: '#0092ff',
-        padding: '8px 0',
-      };
+
     return (
         <Space 
         direction="vertical"
@@ -24,7 +26,7 @@ const TypeThree = () => {
                 <Col xs={24} sm={24} md={12}  lg={6} style={{ display:"flex" }}>
                 <TypeBox 
                 icon = {<FaHtml5/>}
-                iconBg="#9a7d0a"
+                iconBg="#673AB7"
                 title="HTML  !!"
                 desc="A standard markup language used to create and structure content on the web."
                 />                      
@@ -33,7 +35,7 @@ const TypeThree = () => {
                 <Col xs={24} sm={24} md={12}  lg={6} style={{ display:"flex" }}>
                 <TypeBox 
                 icon = {<FaCss3Alt/>}
-                iconBg="#9a7d0a"
+                iconBg="#3F51B5"
                 title="CSS   !!"
                 desc="A stylesheet language used to describe the presentation of a web page"
                 /> 
@@ -42,7 +44,7 @@ const TypeThree = () => {
                 <Col xs={24} sm={24} md={12}  lg={6} style={{ display:"flex" }}>
                 <TypeBox 
                 icon = {<SiJavascript/>}
-                iconBg="#9a7d0a"
+                iconBg="#FF9800"
                 title="JavaScript   !!"
                 desc="A programming language primarily used to create dynamic and interactive elements"
                 />
@@ -50,9 +52,9 @@ const TypeThree = () => {
                     
                 <Col xs={24} sm={24} md={12}  lg={6} style={{ display:"flex" }}>
                 <TypeBox 
-                icon = {<SiJavascript/>}
-                iconBg="#9a7d0a"
-                title="JavaScript   !!"
+                icon = {<IoLogoReact/>}
+                iconBg="#311B92"
+                title="React.js   !!"
                 desc="A programming language primarily used to create dynamic and interactive elements"
                 />
                 </Col>
@@ -62,7 +64,7 @@ const TypeThree = () => {
                 <Col xs={24} sm={24} md={24}  lg={12} style={{ display:"flex" }}>
                 <TypeBox 
                 icon = {<FaPython/>}
-                iconBg="#9a7d0a"
+                iconBg="#FF5722"
                 title="Python   !!"
                 desc="A high-level, versatile programming language known for its simplicity and readability. It's used in web development, data analysis, machine learning, automation, and more."
                 />
@@ -78,9 +80,9 @@ const TypeThree = () => {
                         <Row gutter={[16, 16]}>
                             <Col xs={24} sm={24} md={24} style={{ display:"flex" }}>
                             <TypeBox 
-                            icon = {<RiReactjsLine/>}
-                            iconBg="#9a7d0a"
-                            title="React  !!"
+                            icon = {<DiRuby/>}
+                            iconBg="#4CAF50"
+                            title="Ruby  !!"
                             desc="A JavaScript library for building user interfaces, particularly for single-page applications. React allows developers to create reusable components and efficiently update the UI when data changes."
                             />
                             </Col>
@@ -89,17 +91,17 @@ const TypeThree = () => {
                             
                             <Col xs={24} sm={24} md={12}  lg={12} style={{ display:"flex" }}>
                             <TypeBox 
-                            icon = {<RiReactjsLine/>}
-                            iconBg="#9a7d0a"
-                            title="React  !!"
+                            icon = {<FaNodeJs/>}
+                            iconBg="#8BC34A"
+                            title="Node.js  !!"
                             desc="A JavaScript library for building user interfaces, particularly for single-page applications. React allows developers to create reusable components and efficiently update the UI when data changes."
                             />                            </Col>
 
                             <Col xs={24} sm={24} md={12}  lg={12} style={{ display:"flex" }}>
                             <TypeBox 
-                            icon = {<RiReactjsLine/>}
-                            iconBg="#9a7d0a"
-                            title="React  !!"
+                            icon = {<PiFileSqlFill/>}
+                            iconBg="#1DE9B6"
+                            title="SQL  !!"
                             desc="A JavaScript library for building user interfaces, particularly for single-page applications. React allows developers to create reusable components and efficiently update the UI when data changes."
                             />
                             </Col>
@@ -110,9 +112,9 @@ const TypeThree = () => {
            <Row gutter={[16, 16]}>
            <Col xs={24} sm={24} md={24}   style={{ display:"flex" }}>
            <TypeBox 
-                            icon = {<RiReactjsLine/>}
-                            iconBg="#9a7d0a"
-                            title="React  !!"
+                            icon = {<SiPhp/>}
+                            iconBg="#2962FF"
+                            title="PHP  !!"
                             desc="A JavaScript library for building user interfaces, particularly for single-page applications. React allows developers to create reusable components and efficiently update the UI when data changes."
                             />
              </Col>
@@ -120,5 +122,4 @@ const TypeThree = () => {
         </Space>
     );
 };
-
 export default TypeThree;

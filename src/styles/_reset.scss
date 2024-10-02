@@ -30,6 +30,18 @@ body{
     margin: 16px;
     background: $color_two;
     border-radius: 6px;
+    position: relative;
+    .demo_logo_icon{
+      position: absolute;
+      background: $color_two;
+      color: $extra_two;
+      border-radius: 50%;
+      font-size: 20px;
+      padding: 3px;
+      right: -14px;
+      top: -11px;
+      cursor: pointer;
+    }
   }
   .ant-layout{
     min-height: 100vh;

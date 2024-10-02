@@ -6,7 +6,6 @@ import {
 import {  Badge, Button, Layout } from "antd";
 import React from "react";
 import { AiFillBell } from "react-icons/ai";
-import { PiDesktopFill } from "react-icons/pi";
 import { useNavigate } from "react-router-dom";
 
 const { Header } = Layout;
@@ -38,10 +37,9 @@ const HeaderTop = ({collapsed, setCollapsed, isMobile}) => {
       }}> 
 
        <Badge count={5}>
-         <AiFillBell style={{ fontSize: "30px" }} />
+         <AiFillBell style={{ fontSize: "30px", color: "#2F4F4F" }} />
         </Badge>
-      <Button 
-      type="primary" icon={<PiDesktopFill />} size="small" onClick={frontdeskHandler}>
+      <Button   type="primary"  onClick={frontdeskHandler} style={{ background: "#2F4F4F" }} >
         FRONT DESK
       </Button>
       </div>

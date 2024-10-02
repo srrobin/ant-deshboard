@@ -9,10 +9,7 @@ import { GiSandwich } from "react-icons/gi";
 import { GiTacos } from "react-icons/gi";
 import { GiFrenchFries } from "react-icons/gi";
 const TypeTwo = () => {
-    const style = {
-        background: '#0092ff',
-        padding: '8px 0',
-      };
+
     return (
         <Space
         direction="vertical"
@@ -99,8 +96,8 @@ const TypeTwo = () => {
                 <Col xs={24} sm={24} md={24} lg={8} style={{ display:"flex" }}>
                 <TypeBox 
                     icon = {<GiSandwich />}
-                    iconBg="#FFC300"
-                    title="Burger"
+                    iconBg="#1A237E"
+                    title="Sandwich"
                     desc=" A versatile dish made with two slices of bread filled with a combination of ingredients such as meats, cheeses, vegetables, and spreads like mayo or mustard. Common types include ham sandwiches, turkey clubs, and BLTs. A versatile dish made with two slices of bread filled with a combination of ingredients such as meats, cheeses, vegetables, and spreads like mayo or mustard. Common types include ham sandwiches, turkey clubs, and BLTs.A classic sandwich made with a ground beef patty, typically grilled or pan-fried, and served in a bun. It's often topped with lettuce, tomato, cheese, onions, and condiments like ketchup, mustard, or mayonnaise."
                     />
                 </Col> 

@@ -1,5 +1,9 @@
 # Getting Started with Create React App
+  ## "start": "ESLINT_NO_DEV_ERRORS='true'  react-scripts start",  
+  ## "build": "DISABLE_ESLINT_PLUGIN='true' react-scripts build",
 
+  ## "start": "react-scripts start",
+  ## "build": "react-scripts build",
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
