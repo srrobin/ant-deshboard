@@ -1,5 +1,6 @@
 import axios from 'axios';
-const BASE_URL = "http://localhost:5000"
+// const BASE_URL = "http://localhost:5000"
+const BASE_URL = "https://tough-puddle-snowboard.glitch.me"
 
 export const axiosInstance = axios.create({baseURL:BASE_URL})
 
