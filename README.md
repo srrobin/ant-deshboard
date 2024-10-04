@@ -1,74 +1,37 @@
-# Getting Started with Create React App
-  ## "start": "ESLINT_NO_DEV_ERRORS='true'  react-scripts start",  
-  ## "build": "DISABLE_ESLINT_PLUGIN='true' react-scripts build",
+# Ant Dashboard 🐜
+A customizable, feature-rich dashboard for hotel front desk management, built with React.js, Ant Design, TanStack Query, SASS, and React Calendar Timeline. The Ant Dashboard offers a seamless way to manage hotel room bookings, view real-time room statuses, and handle essential front desk operations. Using JSON Server for data and hosted on Glitch. me, this dashboard brings efficiency and clarity to hotel management tasks.
 
-  ## "start": "react-scripts start",
-  ## "build": "react-scripts build",
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![POS System][(https://github.com/srrobin/ant-deshboard/blob/main/src/assets/d1.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+## 📜 Overview
+Ant Dashboard is a comprehensive software solution designed to streamline hotel management operations. The dashboard features a sleek, modern UI powered by Ant Design components, allowing users to handle front desk responsibilities, manage bookings, view analytics, and more from a single, efficient interface.s.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![POS System](https://github.com/srrobin/ant-deshboard/blob/main/src/assets/d2.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🐕 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Booking Management:**: Quickly view, create, and manage room bookings.
+- **Check-In & Check-Out Tracking:**  Easily monitor guest status, including check-ins, check-outs, and room availability.
+- **Interactive Timeline:**  Visualize room bookings with react-calendar-timeline for easy scheduling.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![POS System](https://github.com/srrobin/ant-deshboard/blob/main/src/assets/d3.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Tech Stack
+- **Frontend**: React, TanStack Query, Sass, Ant Design
+- **Scheduling & Timeline:** react-calendar-timeline
+- **Backend:**  JSON Server (hosted on Glitch. me)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🤝 Contributing
+Feel free to fork the project, make enhancements, and submit pull requests. Contributions are always welcome to improve the project!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/srrobin/ant-deshboard
