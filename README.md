@@ -1,7 +1,7 @@
 # Ant Dashboard 🐜
 A customizable, feature-rich dashboard for hotel front desk management, built with React.js, Ant Design, TanStack Query, SASS, and React Calendar Timeline. The Ant Dashboard offers a seamless way to manage hotel room bookings, view real-time room statuses, and handle essential front desk operations. Using JSON Server for data and hosted on Glitch. me, this dashboard brings efficiency and clarity to hotel management tasks.
 
-![POS System][(https://github.com/srrobin/ant-deshboard/blob/main/src/assets/d1.png)
+![POS System](https://github.com/srrobin/ant-deshboard/blob/main/src/assets/d1.png)
 
 
 ## 📜 Overview
