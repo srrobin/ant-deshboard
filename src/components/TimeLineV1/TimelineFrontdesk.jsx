@@ -25,6 +25,7 @@ import HoverStatus from "./HoverStatus";
 import RoomStatus from "./RoomStatus";
 import StatusBox from "./StatusBox";
 import StatusIdentity from "./StatusIdentity";
+import GlobalLoader from "../../utils/GlobalLoader";
 const keys = {
   groupIdKey: "id",
   groupTitleKey: "title",
@@ -88,7 +89,7 @@ const TimelineFrontdesk = () => {
       </div>
     );
   };
-  if (isLoading) <>Loading</>;
+  if (isLoading) <><GlobalLoader/></>;
   if (isError) <>{error.message}</>;
   console.log("🚀 ~ TimelineFrontdesk ~ data:", data);
   const handleClick = () => {

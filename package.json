@@ -23,8 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "ESLINT_NO_DEV_ERRORS='true'  react-scripts start",  
-    "build": "DISABLE_ESLINT_PLUGIN='true' react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "json-server": "json-server --watch db.json  true --port 5000",
     "start:dev": "concurrently \"npm start\" \"npm run json-server\"",
     "test": "react-scripts test",
